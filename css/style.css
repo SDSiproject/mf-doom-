@@ -1,0 +1,31 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #303030;
+}
+
+.squre {
+  border-radius: 50%;
+  text-align: center;
+  font-size: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: bisque;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: ease-in-out;
+          transform: ease-in-out;
+}
+.squre:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
